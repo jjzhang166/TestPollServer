@@ -1,7 +1,7 @@
 //
 //  tcp_poll_server.h
 //  AQPollServer
-//
+//  服务器端tcp poll封装
 //  Created by PixBoly on 2018/1/16.
 //  Copyright © 2018年 pix. All rights reserved.
 //
@@ -9,13 +9,6 @@
 #ifndef tcp_poll_server_h
 #define tcp_poll_server_h
 
-#include <stdio.h>
-#include <poll.h>
-
-#define MAXLINE     1024
-#define LISTENQ     5
-#define OPEN_MAX    1000
-#define INFTIM      -1
 
 #ifdef __cplusplus
 extern "C"
