@@ -20,7 +20,6 @@
 #include <arpa/inet.h>
 #include <pthread.h>
 
-#define MAXLINE     1024
 #define LISTENQ     5
 #define OPEN_MAX    1000
 #define INFTIM      -1

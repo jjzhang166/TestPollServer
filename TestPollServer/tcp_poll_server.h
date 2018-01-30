@@ -9,7 +9,9 @@
 #ifndef tcp_poll_server_h
 #define tcp_poll_server_h
 
+// 最大缓冲区大小
 
+#define MAXLINE     1024
 #ifdef __cplusplus
 extern "C"
 {
